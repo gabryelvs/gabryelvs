@@ -4,6 +4,8 @@ Computer Science student (final year, University of Greenwich) and aspiring **ba
 
 🔭 Currently building a backend portfolio of small, well-engineered services — each tested, run in CI, containerised, and deployed live with interactive docs you can try.
 
+🌐 **See it all in one place → [portfolio-gabryelverissimo.vercel.app](https://portfolio-gabryelverissimo.vercel.app/)**
+
 ---
 
 ### 🚀 Featured projects
@@ -39,5 +41,6 @@ Also: C#, SQL, JavaScript · REST API design · test-driven development · cloud
 
 ### 📫 Connect
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-6366F1?style=flat&logo=vercel&logoColor=white)](https://portfolio-gabryelverissimo.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabryel-ver%C3%ADssimo-b1b931261)
 📧 gabryelverissimo12@gmail.com
