@@ -16,6 +16,10 @@ A payments backend built the way real banks work: money stored as integer minor 
 Serves live exchange rates and conversions. Caches ECB rates in Redis, refreshes them on a background schedule, and **keeps serving last-known rates when the upstream provider is down** (stale fallback).
 `FastAPI` · `httpx (async)` · `Redis` · `Docker` · `GitHub Actions`
 
+**[Webhook-Dispatcher](https://github.com/gabryelvs/webhook-dispatcher)** — Reliable webhook delivery
+Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-SHA256 signing, **exponential backoff**, a **dead-letter queue**, and manual replay. At-least-once delivery with de-duplication.
+`FastAPI` · `Redis` · `Docker` · `GitHub Actions`
+
 ---
 
 ### 🛠️ Tech I work with
