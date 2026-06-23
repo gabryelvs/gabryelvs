@@ -39,7 +39,7 @@ An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issue
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-Also: C#, SQL, JavaScript · REST API design · test-driven development · cloud deployment (Fly.io)
+Also: C#, SQL, JavaScript · REST API design · test-driven development · cloud deployment (Fly.io) · AI-assisted development (Claude)
 
 ---
 
