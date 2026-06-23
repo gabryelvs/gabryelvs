@@ -22,6 +22,10 @@ Serves live exchange rates and conversions. Caches ECB rates in Redis, refreshes
 Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-SHA256 signing, **exponential backoff**, a **dead-letter queue**, and manual replay. At-least-once delivery with de-duplication.
 `FastAPI` · `Redis` · `Docker` · `GitHub Actions`
 
+**[OWASP Security Lab](https://github.com/gabryelvs/owasp-security-lab)** — Break it & fix it 🔐
+An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issues (SQL injection, broken access control, SSRF, JWT auth flaws, and more). Each vuln ships with a **working exploit, a hardened fix, and tests proving both** — defensive, secure-coding focused.
+`FastAPI` · `pytest` · `Docker` · `CodeQL` · `GitHub Actions`
+
 ---
 
 ### 🛠️ Tech I work with
