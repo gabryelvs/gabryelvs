@@ -1,6 +1,6 @@
 # Hi, I'm Gabryel 👋
 
-Computer Science student (final year, University of Greenwich) and aspiring **backend software engineer** based in **London**. I build production-shaped APIs in **Python / FastAPI**, focused on fintech problems — payments, ledgers, and resilient services.
+Computer Science student (final year, University of Greenwich) and aspiring **backend software engineer** based in **London**. I build production-shaped APIs in **Python / FastAPI** and **Java / Spring Boot**, focused on fintech problems — payments, ledgers, and resilient services.
 
 🔭 Currently building a backend portfolio of small, well-engineered services — each tested, run in CI, containerised, and deployed live with interactive docs you can try.
 
@@ -22,6 +22,10 @@ Serves live exchange rates and conversions. Caches ECB rates in Redis, refreshes
 Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-SHA256 signing, **exponential backoff**, a **dead-letter queue**, and manual replay. At-least-once delivery with de-duplication.
 `FastAPI` · `Redis` · `Docker` · `GitHub Actions`
 
+**[Taskboard API](https://github.com/gabryelvs/taskboard-api)** — Trello-like task manager API · [▶ Live demo](https://taskboard-gv.fly.dev/swagger-ui.html)
+A task board backend in Java/Spring Boot: **JWT auth with refresh-token rotation and family revocation on reuse**, role-based project membership with **404-no-leak authorization**, and **transactional drag-and-drop card ordering** with pessimistic column locking, proven by 62 Testcontainers integration tests.
+`Java` · `Spring Boot` · `PostgreSQL` · `Docker` · `GitHub Actions`
+
 **[OWASP Security Lab](https://github.com/gabryelvs/owasp-security-lab)** — Break it & fix it 🔐
 An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issues (SQL injection, broken access control, SSRF, JWT auth flaws, and more). Each vuln ships with a **working exploit, a hardened fix, and tests proving both** — defensive, secure-coding focused.
 `FastAPI` · `pytest` · `Docker` · `CodeQL` · `GitHub Actions`
@@ -32,6 +36,8 @@ An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issue
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -39,7 +45,7 @@ An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issue
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-Also: C#, SQL, JavaScript · REST API design · test-driven development · cloud deployment (Fly.io) · AI-assisted development (Claude)
+Also: C#, SQL, JavaScript · Spring Security · Testcontainers · REST API design · test-driven development · cloud deployment (Fly.io) · AI-assisted development (Claude)
 
 ---
 
