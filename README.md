@@ -1,6 +1,6 @@
 # Hi, I'm Gabryel 👋
 
-Computer Science student (final year, University of Greenwich) and aspiring **backend software engineer** based in **London**. I build production-shaped APIs in **Python / FastAPI** and **Java / Spring Boot**, focused on fintech problems — payments, ledgers, and resilient services.
+Computer Science student (final year, University of Greenwich) and aspiring **backend software engineer** based in **London**. I build production-shaped APIs in **Python / FastAPI** and **Java / Spring Boot**, focused on fintech problems — payments, ledgers, and resilient services — and ship fullstack tools with **React / TypeScript** when the API needs a face.
 
 🔭 Currently building a backend portfolio of small, well-engineered services — each tested, run in CI, containerised, and deployed live with interactive docs you can try.
 
@@ -26,6 +26,14 @@ Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-S
 A task board backend in Java/Spring Boot: **JWT auth with refresh-token rotation and family revocation on reuse**, role-based project membership with **404-no-leak authorization**, and **transactional drag-and-drop card ordering** with pessimistic column locking, proven by 62 Testcontainers integration tests.
 `Java` · `Spring Boot` · `PostgreSQL` · `Docker` · `GitHub Actions`
 
+**[Webhook Inspector](https://github.com/gabryelvs/webhook-inspector)** — Fullstack webhook debugging tool · [▶ Live demo](https://webhook-inspector-gv.fly.dev)
+Create a disposable URL, point any webhook at it, and watch requests arrive live — headers, pretty-printed body, and query params. Hardened for a public endpoint: **bodies streamed and capped at 1 MB**, per-IP rate limiting, and a capture route that **always returns 200 so a database fault never breaks the sender's webhook**. The debugging counterpart to Webhook-Dispatcher.
+`FastAPI` · `PostgreSQL` · `React` · `TypeScript` · `Tailwind` · `Docker`
+
+**[SECTOR—9](https://github.com/gabryelvs/store-demo)** — Animated demo storefront · [▶ Live demo](https://store-demo-gv.fly.dev)
+A storefront demo built as a **client-facing sales asset** for freelance work — the thing a prospect clicks through instead of reading a proposal. The catalogue sits behind a **single data seam**, so a real backend replaces the mock data without touching a page. The cart is a **pure reducer** with totals derived in integer pence and **storage rehydration that validates what it reads**, so a stale bag can never render a wrong total. Quick-view, cart and mobile-nav overlays each **trap focus, mark the background inert for screen readers, and stand down under `prefers-reduced-motion`**. 26 statically prerendered routes, **Lighthouse 99–100** with zero layout shift.
+`Next.js 16` · `React 19` · `TypeScript` · `Tailwind 4` · `GSAP` · `Vitest` · `Docker`
+
 **[OWASP Security Lab](https://github.com/gabryelvs/owasp-security-lab)** — Break it & fix it 🔐
 An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issues (SQL injection, broken access control, SSRF, JWT auth flaws, and more). Each vuln ships with a **working exploit, a hardened fix, and tests proving both** — defensive, secure-coding focused.
 `FastAPI` · `pytest` · `Docker` · `CodeQL` · `GitHub Actions`
@@ -45,7 +53,7 @@ An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issue
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-Also: C#, SQL, JavaScript · Spring Security · Testcontainers · REST API design · test-driven development · cloud deployment (Fly.io) · AI-assisted development (Claude)
+Also: C#, SQL, JavaScript · React · Next.js · TypeScript · Tailwind CSS · GSAP · Spring Security · Testcontainers · Vitest · REST API design · test-driven development · web accessibility · cloud deployment (Fly.io) · AI-assisted development (Claude)
 
 ---
 
