@@ -24,7 +24,7 @@ Serves live exchange rates and conversions. Caches ECB rates in Redis, refreshes
 Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-SHA256 signing, **exponential backoff**, a **dead-letter queue**, and manual replay. At-least-once delivery with de-duplication.
 `FastAPI` · `Redis` · `Docker` · `GitHub Actions`
 
-**[Taskboard API](https://github.com/gabryelvs/taskboard-api)** — Trello-like task manager API · [▶ Live demo](https://taskboard-gv.fly.dev/swagger-ui.html)
+**[Taskboard API](https://github.com/gabryelvs/taskboard-api)** — Trello-like task manager API · [▶ Live demo](https://taskboard-api-h3yu.onrender.com/swagger-ui.html)
 A task board backend in Java/Spring Boot: **JWT auth with refresh-token rotation** — reusing a rotated refresh token **revokes every session for that user** — role-based project membership with **404-no-leak authorization**, and **transactional drag-and-drop card ordering** with pessimistic column locking, proven by 62 Testcontainers integration tests.
 `Java` · `Spring Boot` · `PostgreSQL` · `Docker` · `GitHub Actions`
 
@@ -55,7 +55,7 @@ An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issue
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-Also: C#, SQL, JavaScript · React · Next.js · TypeScript · Tailwind CSS · GSAP · Spring Security · Testcontainers · Vitest · REST API design · test-driven development · web accessibility · cloud deployment (Vercel, Fly.io) · AI-assisted development (Claude)
+Also: C#, SQL, JavaScript · React · Next.js · TypeScript · Tailwind CSS · GSAP · Spring Security · Testcontainers · Vitest · REST API design · test-driven development · web accessibility · cloud deployment (Vercel, Render, Fly.io) · AI-assisted development (Claude)
 
 ---
 
