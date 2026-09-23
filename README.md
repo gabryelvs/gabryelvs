@@ -8,7 +8,7 @@
 I build reliable systems for fintech: payments, ledgers and the services around them, in Python, Java and TypeScript. Everything below is tested and open source, and the three case studies run live.
 
 **Open to graduate and junior software engineer roles in London from summer 2027.**<br>
-[gabryelverissimo.dev](https://gabryelverissimo.dev) · [hello@gabryelverissimo.dev](mailto:hello@gabryelverissimo.dev) · [LinkedIn](https://www.linkedin.com/in/gabryel-verissimo-b1b931261)
+[gabryelverissimo.dev](https://gabryelverissimo.dev) · [hello@gabryelverissimo.dev](mailto:hello@gabryelverissimo.dev) · [LinkedIn](https://www.linkedin.com/in/gabryel-verissimo)
 
 ### Case studies
 
