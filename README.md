@@ -63,4 +63,4 @@ Also: C#, SQL, JavaScript · React · Next.js · TypeScript · Tailwind CSS · G
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-6366F1?style=flat&logo=vercel&logoColor=white)](https://gabryelverissimo.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabryel-ver%C3%ADssimo-b1b931261)
-📧 gabryelverissimo12@gmail.com
+📧 [hello@gabryelverissimo.dev](mailto:hello@gabryelverissimo.dev)
