@@ -28,7 +28,7 @@ Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-S
 A task board backend in Java/Spring Boot: **JWT auth with refresh-token rotation** — reusing a rotated refresh token **revokes every session for that user** — role-based project membership with **404-no-leak authorization**, and **transactional drag-and-drop card ordering** with pessimistic column locking, proven by 62 Testcontainers integration tests.
 `Java` · `Spring Boot` · `PostgreSQL` · `Docker` · `GitHub Actions`
 
-**[Webhook Inspector](https://github.com/gabryelvs/webhook-inspector)** — Fullstack webhook debugging tool · [▶ Live demo](https://webhook-inspector-gv.fly.dev)
+**[Webhook Inspector](https://github.com/gabryelvs/webhook-inspector)** — Fullstack webhook debugging tool · [▶ Live demo](https://webhook-inspector-gv.vercel.app)
 Create a disposable URL, point any webhook at it, and watch requests arrive live — headers, pretty-printed body, and query params. Hardened for a public endpoint: **bodies streamed and capped at 1 MB**, **per-client rate limiting keyed on the real client IP behind the proxy** (no trusting `X-Forwarded-For`), and a capture route that **always returns 200 so a database fault never breaks the sender's webhook**. The debugging counterpart to Webhook-Dispatcher.
 `FastAPI` · `PostgreSQL` · `React` · `TypeScript` · `Tailwind` · `Docker`
 
@@ -55,7 +55,7 @@ An intentionally-vulnerable FastAPI app demonstrating **six OWASP Top 10** issue
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-Also: C#, SQL, JavaScript · React · Next.js · TypeScript · Tailwind CSS · GSAP · Spring Security · Testcontainers · Vitest · REST API design · test-driven development · web accessibility · cloud deployment (Fly.io) · AI-assisted development (Claude)
+Also: C#, SQL, JavaScript · React · Next.js · TypeScript · Tailwind CSS · GSAP · Spring Security · Testcontainers · Vitest · REST API design · test-driven development · web accessibility · cloud deployment (Vercel, Fly.io) · AI-assisted development (Claude)
 
 ---
 
