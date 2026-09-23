@@ -12,8 +12,8 @@
 
 ### 🚀 Featured projects
 
-**[PayLedger](https://github.com/gabryelvs/payledger)** — Double-entry payments & ledger API · [▶ Live demo](https://payledger-gv.fly.dev/docs)
-A payments backend built the way real banks work: money stored as integer minor units (no float errors), an append-only **double-entry ledger**, **race-safe transfers** via database row locking (proven under parallel load), and **idempotent** writes to prevent double-charges.
+**[PayLedger](https://github.com/gabryelvs/payledger)** — Double-entry payments & ledger API · [▶ Live demo](https://payledger-gv.vercel.app/docs)
+A payments backend built the way real banks work: money stored as integer minor units (no float errors), an append-only **double-entry ledger**, **race-safe transfers** via database row locking (proven under parallel load), and **atomically idempotent** writes — the idempotency key is claimed inside the same transaction as the transfer, so concurrent retries can't double-charge. Every wallet, statement and transaction is **ownership-checked**: only the owner can access it, and someone else's wallet 404s like a missing one.
 `FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `Docker` · `GitHub Actions`
 
 **[FX-Service](https://github.com/gabryelvs/fx-service)** — Async currency-exchange API · [▶ Live demo](https://fx-service-gv.fly.dev/docs)
@@ -25,11 +25,11 @@ Delivers webhooks via a **Redis queue + a separate worker process**, with HMAC-S
 `FastAPI` · `Redis` · `Docker` · `GitHub Actions`
 
 **[Taskboard API](https://github.com/gabryelvs/taskboard-api)** — Trello-like task manager API · [▶ Live demo](https://taskboard-gv.fly.dev/swagger-ui.html)
-A task board backend in Java/Spring Boot: **JWT auth with refresh-token rotation and family revocation on reuse**, role-based project membership with **404-no-leak authorization**, and **transactional drag-and-drop card ordering** with pessimistic column locking, proven by 62 Testcontainers integration tests.
+A task board backend in Java/Spring Boot: **JWT auth with refresh-token rotation** — reusing a rotated refresh token **revokes every session for that user** — role-based project membership with **404-no-leak authorization**, and **transactional drag-and-drop card ordering** with pessimistic column locking, proven by 62 Testcontainers integration tests.
 `Java` · `Spring Boot` · `PostgreSQL` · `Docker` · `GitHub Actions`
 
 **[Webhook Inspector](https://github.com/gabryelvs/webhook-inspector)** — Fullstack webhook debugging tool · [▶ Live demo](https://webhook-inspector-gv.fly.dev)
-Create a disposable URL, point any webhook at it, and watch requests arrive live — headers, pretty-printed body, and query params. Hardened for a public endpoint: **bodies streamed and capped at 1 MB**, per-IP rate limiting, and a capture route that **always returns 200 so a database fault never breaks the sender's webhook**. The debugging counterpart to Webhook-Dispatcher.
+Create a disposable URL, point any webhook at it, and watch requests arrive live — headers, pretty-printed body, and query params. Hardened for a public endpoint: **bodies streamed and capped at 1 MB**, **per-client rate limiting keyed on the real client IP behind the proxy** (no trusting `X-Forwarded-For`), and a capture route that **always returns 200 so a database fault never breaks the sender's webhook**. The debugging counterpart to Webhook-Dispatcher.
 `FastAPI` · `PostgreSQL` · `React` · `TypeScript` · `Tailwind` · `Docker`
 
 **[SECTOR—9](https://github.com/gabryelvs/store-demo)** — Animated demo storefront · [▶ Live demo](https://store-demo-gv.fly.dev)
