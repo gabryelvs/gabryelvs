@@ -1,7 +1,7 @@
 <a href="https://gabryelverissimo.dev">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="Gabryel Veríssimo, Software Engineer. Reliable systems for fintech in Python, Java and TypeScript." width="100%">
+    <img src="assets/banner-light.svg" alt="Gabryel Verissimo, Software Engineer. Reliable systems for fintech in Python, Java and TypeScript." width="100%">
   </picture>
 </a>
 
