@@ -1,6 +1,8 @@
 # Hi, I'm Gabryel 👋
 
-Computer Science student (final year, University of Greenwich) and aspiring **backend software engineer** based in **London**. I build production-shaped APIs in **Python / FastAPI** and **Java / Spring Boot**, focused on fintech problems — payments, ledgers, and resilient services — and ship fullstack tools with **React / TypeScript** when the API needs a face.
+**Software engineer** based in **London**. I build production-shaped APIs in **Python / FastAPI** and **Java / Spring Boot**, focused on fintech problems — payments, ledgers, and resilient services — and ship fullstack tools with **React / TypeScript** when the API needs a face.
+
+🎓 BSc Computer Science, University of Greenwich, graduating July 2027 · open to graduate and junior software engineer roles in London.
 
 🔭 Currently building a backend portfolio of small, well-engineered services — each tested, run in CI, containerised, and deployed live with interactive docs you can try.
 
