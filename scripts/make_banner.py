@@ -68,7 +68,7 @@ def banner(t: dict) -> str:
     mono400 = Face(MONO.format(w=400))
 
     x0 = 72
-    name_d, _ = inter600.path("Gabryel Veríssimo", x0, 132, 68, -0.038)
+    name_d, _ = inter600.path("Gabryel Verissimo", x0, 132, 68, -0.038)
     role_d, _ = inter600.path("Software Engineer", x0, 206, 68, -0.038)
     tag_d, _ = mono400.path("Reliable systems for fintech  ·  Python · Java · TypeScript", x0, 262, 19)
 
@@ -99,7 +99,7 @@ def banner(t: dict) -> str:
     grid = "".join(f'<path d="M{gx} 0 V{H}"/>' for gx in range(0, W + 1, 56)) + \
            "".join(f'<path d="M0 {gy} H{W}"/>' for gy in range(0, H + 1, 56))
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Gabryel Veríssimo, Software Engineer. Reliable systems for fintech in Python, Java and TypeScript.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Gabryel Verissimo, Software Engineer. Reliable systems for fintech in Python, Java and TypeScript.">
   <defs>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff" stop-opacity="1"/>
